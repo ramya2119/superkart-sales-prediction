@@ -1,0 +1,8 @@
+# Pandas is used to process and display batch prediction results.
+pandas==2.2.2
+
+# Requests is used to communicate with the Flask backend API.
+requests==2.28.1
+
+# Streamlit is used to build the interactive frontend.
+streamlit==1.43.2
