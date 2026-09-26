@@ -1,0 +1,30 @@
+
+# Pandas is used for reading CSV files and creating DataFrames.
+pandas==2.2.2
+
+# NumPy provides numerical operations used by the ML ecosystem.
+numpy==2.0.2
+
+# Scikit-learn provides machine-learning functionality and model support.
+scikit-learn==1.6.1
+
+# XGBoost is included because the trained model may depend on XGBoost.
+xgboost==2.1.4
+
+# Joblib is used to load the serialized trained model.
+joblib==1.4.2
+
+# Werkzeug provides utilities used by Flask.
+Werkzeug==2.2.2
+
+# Flask is the web framework used to expose the ML model as an API.
+flask==2.2.2
+
+# Gunicorn is the production WSGI server used to run Flask in Docker.
+gunicorn==20.1.0
+
+# Requests allows Python applications to send HTTP requests.
+requests==2.28.1
+
+# Uvicorn provides an ASGI server and is retained from the provided setup.
+uvicorn[standard]
